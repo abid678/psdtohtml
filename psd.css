@@ -1,0 +1,723 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+/* DIV1 START  */
+#div1{
+    width: 100%;
+    height: 80vh;
+    background-color: #87509c;
+    margin-bottom: 0rem;
+}
+#head1{
+    max-width: 114rem;
+    
+    background-color: #87509c;
+    margin: 0 auto;
+}
+#logo{
+   margin: 4rem 0rem 0rem 0rem;
+   float: left;
+}
+#header1 li {
+    display: inline;
+    float: right;
+    margin: 5rem 1rem 0rem 0rem;
+    height: 3.5rem;
+    width: 7.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+a{
+    color: #ffffff;
+    
+}
+#header1 li:hover{
+    background-color: #643a79;
+    height: 3.5rem;
+    width: 7.9rem;
+    text-align: center;
+}
+.htext1{
+    margin: 15rem 0rem 0rem 0rem;
+    font-size: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f7f3ea;
+    cursor: pointer; 
+}
+#HTEXT1{
+    font-weight: bold;
+    margin: -0.4rem 0rem 0rem 0rem;
+    
+}    
+#btn1{
+    background-color: #eb7d4b;
+    width: 25rem;
+    height: 7rem;
+    border: 0.2rem solid #eb7d4b;
+    margin: 13.5rem 0rem 0rem 0rem;
+    font-weight: bold;
+    color: #f7f3ea;
+    font-size: 1.5rem;
+    
+    border-radius: 0.5rem ;
+    cursor: pointer;
+}
+#btn1:hover{
+    box-shadow: 0.5rem 0.5rem 3rem #68228b;
+    width: 24rem;
+    height: 6.5rem;
+}
+#btnDIV{
+    width: 114rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+/* DIV2 START */
+#div2{
+    width: 100%;
+    height: 95vh;
+    background-color: #17c2a4;
+    
+    
+}
+#divv2headTEXT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: #f7f3ea;
+    padding: 12rem 0rem 0rem 0rem ;
+    letter-spacing: 0.3rem;
+    cursor: pointer;
+}
+#HR::before{
+    content: "";
+    display: block;
+    height: 0.4rem;
+    background: #14a58c;
+    width: 9rem;
+    margin: 1rem auto;
+    
+
+}
+.pText{
+    color: #f7f3ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.div2ICONS{
+    height: 35rem;
+    width: 25rem;
+    background-color: #17c2a4;
+    float: left;
+    margin: 3rem 1rem 0rem 3rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.div2ICONS:hover{
+    box-shadow: .5rem .5rem 3rem #16b197;
+}
+.div2icons2{
+    margin: 3rem 0rem 0rem 7rem;
+
+}
+#iconFLOAT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.div2TEXT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #f7f3ea;
+    margin: 0rem 0rem .5rem 0rem;
+    cursor: pointer;
+}
+/* div3 start */
+#div3{
+    height: 105vh;
+    width: 100%;
+    background-color: #e7f1f8;
+
+}
+#div3Htext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: #3c4761;
+    font-weight: normal;
+    padding: 12rem 0rem 0rem 0rem;
+}
+
+#pAFTER{
+    content: "";
+    display: block;
+    height: .4rem;
+    width: 9rem;
+    background-color: #c8d9e5;
+    margin: 2rem auto;
+}
+#div3Ptext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #3c4761;
+    
+}    
+.div3TeamFloat{
+    background-color: #e7f1f8;
+    height: 45rem;
+    width: 24rem;
+    float: left;
+    margin: 3rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.div3TeamFloat:hover{
+    box-shadow: .5rem .5rem 3rem #bbcbd6;
+}
+#div3TEAM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3.5rem 0rem 0rem 0rem ;
+}
+
+.div3ImgCenter{
+    margin: 1rem auto;
+    border: .5rem solid black;
+    border-radius: 70rem;
+    width: 16rem;
+    
+}
+.div3ImgCenter:hover{
+    background-color: #bbcbd6;
+}
+.div3pTEXT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #535e75;
+    font-size: 1.5rem;
+    margin: .4rem;
+}
+.div3bottomicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div3iconImg{
+    margin: 2rem 0rem 0rem 1rem;
+}
+/* div4 start */
+#div4{
+    width: 100%;
+    height: 90vh;
+    background-color: #ffffff;
+}
+#div4h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11.5rem 0rem 0rem 0rem;
+    color: #3c4761;
+    font-size: 4rem;
+    letter-spacing: .3rem;
+}
+#div4phr::after{
+    content: "";
+    display: block;
+    background-color: #dfe8ed;
+    width: 9rem;
+    height: .4rem;
+    margin: 3rem auto;
+    
+}
+.div4ptext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3c4761;
+    font-size: 2rem;
+    margin: 0rem 0rem .3rem 0rem;
+    letter-spacing: .1rem;
+}
+.div4Float{
+    height: 33rem;
+    width: 25rem;
+    background-color: #ffffff;
+    float: left;
+    margin: 3rem 2rem 0rem 0rem ;
+}
+#div4svgcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 1st progress bar*/
+#track1{
+    stroke: #dfe8ed;
+    fill: none;
+    stroke-width: 1.5rem;
+}
+#progress1{
+    fill: none;
+    stroke-width: 1.6rem;
+    stroke: #30bae7;
+    stroke-dasharray: 44rem;
+    stroke-dashoffset: 44rem;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    animation: anim1 2s linear forwards;
+}
+@keyframes anim1{
+    100%{
+        stroke-dashoffset: 4.4rem;
+    }
+}
+#svgTextcenter1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    margin: -15rem 0rem 10rem 0rem;
+    
+}
+#divBottom1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #3c4761;
+}
+/* 2nd progress bar*/
+#track2{
+    stroke: #dfe8ed;
+    fill: none;
+    stroke-width: 1.5rem;
+}
+#progress2{
+    fill: none;
+    stroke-width: 1.6rem;
+    stroke: #d74680;
+    stroke-dasharray: 44rem;
+    stroke-dashoffset: 44rem;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    animation: anim2 2s linear forwards;
+}
+@keyframes anim2{
+    100%{
+        stroke-dashoffset: 11rem;
+    }
+}
+#svgTextcenter2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    margin: -15rem 0rem 10rem 0rem;
+    
+}
+#divBottom2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #3c4761;
+}
+/* 3rd progress bar*/
+#track3{
+    stroke: #dfe8ed;
+    fill: none;
+    stroke-width: 1.5rem;
+}
+#progress3{
+    fill: none;
+    stroke-width: 1.6rem;
+    stroke: #15c7a8;
+    stroke-dasharray: 44rem;
+    stroke-dashoffset: 44rem;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    animation: anim3 2s linear forwards;
+}
+@keyframes anim3{
+    100%{
+        stroke-dashoffset: 13.2rem;
+    }
+}
+#svgTextcenter3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    margin: -15rem 0rem 10rem 0rem;
+    
+}
+#divBottom3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #3c4761;
+}
+/* 4th progress bar*/
+#track4{
+    stroke: #dfe8ed;
+    fill: none;
+    stroke-width: 1.5rem;
+}
+#progress4{
+    fill: none;
+    stroke-width: 1.6rem;
+    stroke: #eb7d4b;
+    stroke-dasharray: 44rem;
+    stroke-dashoffset: 44rem;
+    transform: rotate(-90deg);
+    transform-origin: center;
+    animation: anim4 2s linear forwards;
+}
+@keyframes anim4{
+    100%{
+        stroke-dashoffset: 6.6rem;
+    }
+}
+#svgTextcenter4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    margin: -15rem 0rem 10rem 0rem;
+    
+}
+#divBottom4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #3c4761;
+}
+/* DIV5 START */
+#div5{
+    height: 142rem;
+    width: 100%;
+    background-color: #ffdd99;
+}
+#div5H2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    letter-spacing: .4rem;
+    color: #393939;
+    padding: 10rem 0rem 0rem 0rem ;
+}
+#div5hr::before{
+    content: "";
+    display: block;
+    background-color: #e5c37f;
+    height: .4rem;
+    width: 9rem;
+    margin: 2rem auto ;
+}
+.div5p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #393939;
+}
+#div5HeadFloat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div5HeadFloatText{
+    height: 4rem;
+    width: 9rem;
+    background-color: #ebc985;
+    float: left;
+    margin: 3rem 2rem 0rem 0rem ;
+    border-radius: .5rem;
+}
+.div5HeadtextCenter{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-weight: lighter;
+}
+.div5HeadFloatText:hover{
+    background-color: #ffffff;
+}
+.div5imgFloat{
+    float: left;
+    margin: 6.5rem 3.5rem 0rem 0rem;
+}
+
+#div5img1Center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div5imgTextCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin: 2.5rem 0rem 4.5rem 0rem;
+}
+.div5imgs:hover{
+    box-shadow: .5rem .5rem 2rem #e5c689;
+    border-radius: 2rem;
+}
+#div5btn{
+    background-color: #17c2a4;
+    height: 7rem;
+    width: 29.5rem;
+    border: 1rem solid #17c2a4;
+    border-radius: .5rem;
+    font-size: 1.8rem;
+    color: whitesmoke;
+    font-weight: bold;
+}
+#div5btn:hover{
+    box-shadow: .3rem .3rem 2rem  #129e84;
+    height: 6rem;
+    width: 28.5rem;
+    font-size: 1.5rem;
+}
+#div5btnCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin: 3rem 0rem 0rem 0rem ;
+}
+/* DIV6 START */
+#div6{
+    width: 100%;
+    height: 90rem;
+    background-color: #d74680;
+}
+#div6htext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12.5rem 0rem 0rem 0rem;
+    font-size: 4rem ;
+    letter-spacing: .5rem;
+    color: #ffffff;
+}
+#div6hr::after{
+    content: "";
+    display: block;
+    background-color: #b73c6d;
+    height: .4rem;
+    width: 9rem;
+    margin: 3rem auto;
+}
+#div6p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #ffffff;
+    letter-spacing: .2rem;
+}
+.div6Float{
+    width: 55rem;
+    height: 60rem;
+    background-color: #d74680;
+    margin: 0rem 0rem 0rem 4rem;
+    float: left;
+    
+}
+#div6float2div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 0rem 0rem 0rem;
+}
+.div6inner2divFloat{
+    background-color: #d74680;
+    float: left;
+    margin: 0rem 1.5rem 0rem 0rem;
+}
+.div6innerCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div6imgs{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 60rem;
+}
+#div7{
+    width: 100%;
+    height: 90rem;
+    background-color: #3c5499;
+}
+#div7htext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    letter-spacing: .4rem;
+    padding: 10rem 0rem 0rem 0rem;
+    color: #ffffff;
+}
+#div7hr::after{
+    content: "";
+    display: block;
+    background-color: #273a71;
+    height: .4rem;
+    width: 9rem;
+    margin: 3rem auto;
+}
+#div7ptext1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #ffffff;
+}
+#div7messageDiv{
+    height: 45rem;
+    width: 100rem;
+    background-color: #3c5499;
+    margin: 8.5rem auto;
+}
+.nameEmailbox{
+    background-color: #273a71;
+    width: 45rem;
+    height: 6rem;
+    float: left;
+    margin: 3rem auto;
+    margin: 0rem 1rem 5rem 1rem;
+    border-radius: .5rem;
+}
+.div7nameInputText{
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 1.7rem 0rem 0rem 2rem ;
+    float: left;
+}
+.div7EmailInputBox{
+    float: left;
+    height: 4rem;
+    width: 30rem;
+    margin: 1rem 0rem 0rem .3rem;
+    border-radius: .5rem;
+    border: .2rem solid #1f3269;
+    background-color: #273a71;
+    color: #ffffff;
+    font-size: 1.8rem;
+    padding: 0rem 0rem 0rem 1rem;
+}
+.div7Message{
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 3rem 1rem 0rem 2rem;
+    float: left;
+}
+#div7messagebox1{
+    background-color: #273a71;
+    margin: 1rem 0rem 0rem 0rem;
+    height: 22rem;
+    width: 98rem;
+    margin: 0 auto;
+    border-radius: .5rem;
+}
+#div7textare{
+    background-color: #273a71;
+    height: 18rem;
+    width: 80rem;
+    border-radius: .5rem;
+    margin: 2rem 0rem 0rem 0rem;
+    border: .2rem solid #1f3269;
+    color: #ffffff;
+    font-size: 1.8rem;
+    padding: 1rem 0rem 0rem 1rem;
+}
+#div7btncrnter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem 0rem 0rem 0rem;
+}
+#div7btn{
+    height: 7rem;
+    width: 28.5rem;
+    border: 1px solid #30bae7;
+    border-radius: .5rem;
+    background-color: #30bae7;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+#div7btn:hover{
+    height: 6.5rem;
+    width: 27.5rem;
+    box-shadow: .5rem .5rem 1rem #1f8fb4;
+}
+/* div8 start */
+#div8{
+    height: 12rem;
+    width: 100%;
+    background-color: #344b8e;
+}
+#div8center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div8htext{
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin: 4.5rem 0rem 0rem 4rem;
+    letter-spacing: .2rem;
+}
+.div8htext:hover{
+    color: #30bae7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
